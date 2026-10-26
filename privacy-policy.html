@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fees Manager – Privacy Policy</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d2433; --muted:#5b6475; --line:#d9dde5; --accent:#1a56b0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14171d; --fg:#e8ebf1; --muted:#9aa3b2; --line:#2b3140; --accent:#7fb0ff; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 Georgia, "Times New Roman", serif; }
+  main { max-width:44rem; margin:0 auto; padding:2.5rem 1.25rem 4rem; }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .25rem; }
+  h2 { font-size:1.25rem; margin:2.2rem 0 .4rem; padding-top:1.2rem; border-top:1px solid var(--line); }
+  p, li { margin:.5rem 0; }
+  .meta { color:var(--muted); margin:0 0 1.5rem; }
+  a { color:var(--accent); }
+  code { font-family:ui-monospace, Menlo, Consolas, monospace; font-size:.9em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Fees Manager – Privacy Policy</h1>
+  <p class="meta">Effective date: October 26, 2026 · Publisher: Afsana Patel</p>
+
+  <p>Fees Manager is a Chrome extension that reads insurance fee schedule PDFs, compares them with your fee CSV file, and can fill the values into a web form you choose. It works entirely on your device. This page explains what data the extension handles and what it does with it.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>The extension does not collect, sell, share, or transmit any personal or sensitive data.</li>
+    <li>It makes no network requests. PDFs and CSV files you open are processed locally in your browser and are never uploaded anywhere.</li>
+    <li>It has no accounts, no analytics, no advertising, and no third-party services.</li>
+  </ul>
+
+  <h2>Data the extension handles</h2>
+  <p><strong>Files you open.</strong> The PDF fee schedules and CSV files you select are read in your browser so the extension can extract fees, compare them, and let you export an updated CSV. They are not sent to the publisher or to any server.</p>
+  <p><strong>Settings.</strong> The extension saves small preferences on your device using Chrome's extension storage, for example which schedule and fee column you chose for each insurer. A short-lived reference to the tab you picked for form filling is kept in session storage and is cleared when the browser session ends. This data never leaves your device.</p>
+  <p><strong>Web form on your active tab.</strong> When you click the extension and choose to fill a form, the extension runs a script on the tab you selected. The script looks at the form fields on that page to find where each value belongs and then types the values from your CSV into them. This happens only after your action, only on that tab, and nothing read from the page is stored or transmitted.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><code>activeTab</code> – temporary access to the tab you are using, granted only when you click the extension, so it can fill the form on that tab.</li>
+    <li><code>scripting</code> – used with <code>activeTab</code> to run the form-filling script on that tab.</li>
+    <li><code>storage</code> – saves your preferences on your device.</li>
+  </ul>
+  <p>The extension requests no host permissions and cannot read other tabs or websites.</p>
+
+  <h2>Sharing and selling</h2>
+  <p>We do not sell or transfer user data to third parties, and we do not use or transfer it for advertising, creditworthiness, lending, or any purpose unrelated to the extension's single purpose of managing insurance fee schedules.</p>
+
+  <h2>Data retention and deletion</h2>
+  <p>Because the publisher receives no data, there is nothing stored on a server. Preferences saved on your device are removed when you uninstall the extension or clear its data in Chrome.</p>
+
+  <h2>Children</h2>
+  <p>The extension is intended for dental and medical office staff and is not directed to children.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the updated version will be posted at this address with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:Demo.samsungid@gmail.com">Demo.samsungid@gmail.com</a></p>
+</main>
+</body>
+</html>
